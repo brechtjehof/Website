@@ -72,7 +72,7 @@ p{
 }
 
 #new_arrivals{
-    display: flex;
+    /display: flex;
     justify-content: center;
     list-style: none;
     padding: 0em;
@@ -133,7 +133,7 @@ h5{
 }
 
 #Sieraden{
-    display: flex;
+    /display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -167,7 +167,7 @@ h5{
 }
 
 .producten{
-    display: flex;
+    /display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -183,4 +183,15 @@ h5{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width:60em) {
+
+    #new_arrivals{
+        display: flex;
+    }
+    
+    .producten{
+        display: flex;
+    }
 }
