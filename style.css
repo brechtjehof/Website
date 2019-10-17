@@ -1,0 +1,151 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+ }
+ 
+ h1{
+     color: black;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 0.4em;
+     font-size: 1.7em;
+     margin: 1.2em 0;
+     font-weight: 600;
+ 
+     display:flex;
+     justify-content: center;
+     
+ }
+ h1 span {
+     padding: 0.75em;
+     display:block;
+ }
+ 
+ /* nav */
+ 
+ nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+     font-size: 1em;
+     text-transform: uppercase;
+ }
+ nav li {
+     margin: em 0;
+ }
+ nav li a{
+     display:block;
+     color: grey;
+     padding-bottom: 2em;
+     
+ }
+ nav li a:hover {
+     color:black;
+ }
+ 
+ a{
+     text-decoration: none;
+     
+ }
+
+ h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 2em;
+    padding-bottom: 0.2em;
+ }
+ 
+ section{
+     width: 85%;
+     margin: auto;
+ }
+ #newcollection{
+     background-image: url(afbeeldingen/kettingenzondertekst.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 45em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #newcollection h2{
+    font-size: calc(16px + 60 * ((100vw - 320px) / 680));
+    padding: 1.6em 1.4em;
+    border:10px solid;
+}
+
+ #new_arrivals{
+    justify-content: center;
+    list-style: none;
+    padding: 1em;
+    font-weight: lighter;
+}
+#new_arrivals ul{
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+    padding: 0em;
+    font-weight: lighter;
+}
+
+#new_arrivals img{
+    height: 14em;
+    width: 21em;
+    padding: 2em;
+    justify-content: space-around;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#new_arrivals h3{
+text-transform: uppercase;
+font-weight: 400;
+text-align: center;
+font-size: 1.1em;
+}
+
+#new_arrivals p{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1em;
+    }
+
+#welkom {
+    text-align: center;
+}
+
+#welkom p {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    padding-bottom: 2em;
+    background-color:#121212;
+    padding: 1.5em;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+
+ @media (min-width:60em) {
+
+    #new_arrivals img{
+        display: flex;
+    }
+
+    .producten{
+        display: flex;
+    }
+}
