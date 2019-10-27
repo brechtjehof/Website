@@ -127,16 +127,18 @@ section{
     font-weight: lighter;
 }
 
+#titelnew{
+    text-align: center;
+}
 #new_arrivals img{
     height: 14em;
     width: 21em;
-    padding: 2em;
+    padding-bottom: 2em;
     justify-content: space-around;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
-
 #new_arrivals h3{
 text-transform: uppercase;
 font-weight: 400;
@@ -156,8 +158,9 @@ font-size: 1.1em;
 }
 
 #welkom p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 300;
+    padding-bottom: 2em;
 }
 footer{
     display: flex;
