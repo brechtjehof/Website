@@ -225,14 +225,14 @@ h5{
     margin-right: auto;
 }
 
-#rainbowhoops img {
+.rainbowhoops img {
     height: 25em;
     width: 34em;
     padding-top: 0em;
     justify-content: center;
 }
 
-#rainbowhoops h2 {
+.rainbowhoops h2 {
     font-weight: 100;
     margin: auto;
     text-align: center;
